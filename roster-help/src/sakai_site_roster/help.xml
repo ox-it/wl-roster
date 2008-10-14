@@ -4,26 +4,26 @@
 <beans>
    <bean id="rosterOverview" class="org.sakaiproject.component.app.help.model.ResourceBean">
       <property name="docId"><value>aruh</value></property>
-      <property name="name"><value>Roster Overview</value></property>
+      <property name="name"><value>Site Members Overview</value></property>
       <property name="location"><value>/sakai_site_roster/aruh.html</value></property>
       <property name="defaultForTool"><value>sakai.site.roster</value></property>
    </bean>
 
    <bean id="rosterView" class="org.sakaiproject.component.app.help.model.ResourceBean">
       <property name="docId"><value>arna</value></property>
-      <property name="name"><value>Viewing your roster</value></property>
+      <property name="name"><value>Viewing your site members</value></property>
       <property name="location"><value>/sakai_site_roster/arna.html</value></property>
    </bean>
 
    <bean id="rosterPrint" class="org.sakaiproject.component.app.help.model.ResourceBean">
       <property name="docId"><value>atzt</value></property>
-      <property name="name"><value>Printing your roster</value></property>
+      <property name="name"><value>Printing your site members</value></property>
       <property name="location"><value>/sakai_site_roster/atzt.html</value></property>
    </bean>
 
    <bean id="rosterExport" class="org.sakaiproject.component.app.help.model.ResourceBean">
       <property name="docId"><value>atfv</value></property>
-      <property name="name"><value>Export your roster</value></property>
+      <property name="name"><value>Export your site members</value></property>
       <property name="location"><value>/sakai_site_roster/atfv.html</value></property>
    </bean>
 
@@ -33,7 +33,7 @@
       <property name="categories">
          <list>
             <bean id="assignmentCategory" class="org.sakaiproject.component.app.help.model.CategoryBean">
-               <property name="name"><value>Roster</value></property>
+               <property name="name"><value>Site Members</value></property>
                <property name="resources">
                   <list>
                      <ref bean="rosterOverview"/>
